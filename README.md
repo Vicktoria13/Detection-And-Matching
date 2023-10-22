@@ -5,7 +5,15 @@
 This practical is about detecting key points in images. 2 methods are implemented :
 
 - Harris corner detector
+
+!["image/match.png"](image/Harris.png)
+
+!["image/match.png"](image/rotation.png)
+
 - FAST corner detector
+
+!["image/match.png"](image/Fast.png)
+
 
 The two implemententations will be discussed (see the jupyter notebook), as well as the impact of the parameters on the results.
 
@@ -20,4 +28,20 @@ Once the key points are detected, we need to match them between two images. The 
 - step 3 : match the descriptors
 
 
-# Detection_Matching
+!["image/match.png"](image/match.png)
+
+
+#  Infuence of the metrics
+
+- L2 distance
+!["image/match.png"](image/L2.png)
+
+
+- Correlation
+
+
+!["image/match.png"](image/correlation.png)
+
+- Cross-correlation
+
+!["image/match.png"](image/croisee.png)
